@@ -1,0 +1,13 @@
+//Add n numbers using function
+
+
+function Add(num) 
+{ 
+  var result = 0;
+  for (var i = 1; i <= num; i++) 
+  {
+    result += i;
+  } 
+  return result;        
+}
+console.log(Add(10));
